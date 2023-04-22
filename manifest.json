@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "BreakEven",
+  "version": "1.0",
+  "description": "Know your odds.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://key-drop.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+      
+}
+  
